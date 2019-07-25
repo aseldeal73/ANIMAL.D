@@ -1,0 +1,69 @@
+$(window).load(function () {
+	$(".trigger_popup_fricc").click(function(){
+	   $('.hover_bkgr_fricc').show();
+	});
+    $(".trigger_popup_fricc_2").click(function(){
+	   $('.hover_bkgr_fricc_2').show();
+	});
+    $(".trigger_popup_fricc_3").click(function(){
+	   $('.hover_bkgr_fricc_3').show();
+	});
+    $(".trigger_popup_fricc_4").click(function(){
+	   $('.hover_bkgr_fricc_4').show();
+	});
+    $(".trigger_popup_fricc_5").click(function(){
+	   $('.hover_bkgr_fricc_5').show();
+	});
+    $(".trigger_popup_fricc_6").click(function(){
+	   $('.hover_bkgr_fricc_6').show();
+	});
+    $(".trigger_popup_fricc_7").click(function(){
+	   $('.hover_bkgr_fricc_7').show();
+	});
+    
+    
+	$('.hover_bkgr_fricc').click(function(){
+		$('.hover_bkgr_fricc').hide();
+	});
+    $('.hover_bkgr_fricc_2').click(function(){
+		$('.hover_bkgr_fricc_2').hide();
+    });
+    $('.hover_bkgr_fricc_3').click(function(){
+		$('.hover_bkgr_fricc_3').hide();
+	});
+    $('.hover_bkgr_fricc_4').click(function(){
+		$('.hover_bkgr_fricc_4').hide();
+	});
+    $('.hover_bkgr_fricc_5').click(function(){
+		$('.hover_bkgr_fricc_5').hide();
+	});
+    $('.hover_bkgr_fricc_6').click(function(){
+		$('.hover_bkgr_fricc_6').hide();
+	});
+    $('.hover_bkgr_fricc_7').click(function(){
+		$('.hover_bkgr_fricc_7').hide();
+	});
+
+    
+	$('.popupCloseButton').click(function(){
+		$('.hover_bkgr_fricc').hide();
+	});
+    $('.popupCloseButton_2').click(function(){
+		$('.hover_bkgr_fricc_2').hide();
+	});
+    $('.popupCloseButton_3').click(function(){
+		$('.hover_bkgr_fricc_3').hide();
+	});
+    $('.popupCloseButton_4').click(function(){
+		$('.hover_bkgr_fricc_4').hide();
+	});
+    $('.popupCloseButton_5').click(function(){
+		$('.hover_bkgr_fricc_5').hide();
+	});
+    $('.popupCloseButton_6').click(function(){
+		$('.hover_bkgr_fricc_6').hide();
+	});
+    $('.popupCloseButton_7').click(function(){
+		$('.hover_bkgr_fricc_7').hide();
+	});
+});
